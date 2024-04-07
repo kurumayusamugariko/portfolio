@@ -25,3 +25,12 @@ a {
 a:hover {
   color: #aecaff;
 }
+
+.toHome{
+	position: relative;
+	bottom: 10px;
+	border-radius: 50%;
+}
+.toHome:hover{
+	filter: drop-shadow(0 0 1em #ffffff);
+}

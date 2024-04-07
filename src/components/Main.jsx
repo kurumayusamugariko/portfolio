@@ -11,13 +11,16 @@ function Main() {
             <Link to="/about">About me</Link>
           </li>
           <li>
-					<Link to="/skill">Skill</Link>
+            <Link to="/skill">Skill</Link>
           </li>
           <li>
-					<Link to="/history">History</Link>
+            <Link to="/history">History</Link>
           </li>
           <li>
-					<Link to="/contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link to="/playground">Playground</Link>
           </li>
         </ul>
       </div>

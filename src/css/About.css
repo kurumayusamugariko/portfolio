@@ -1,0 +1,64 @@
+.about {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+.mogumo {
+  width: 30%;
+  border-radius: 50%;
+  box-shadow: 0em 1em 30px #71d2ffaa;
+}
+
+a {
+  color: white;
+}
+
+.hobby,
+.like{
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+.hobby:hover {
+  transform: scale(1.2);
+  color: rgb(255, 253, 228);
+}
+.giga:hover {
+  transform: scale(1.2);
+  color: rgb(255, 251, 12);
+}
+.reol:hover {
+  transform: scale(1.2);
+  color: rgb(51, 201, 238);
+}
+.dustcell:hover {
+  transform: scale(1.2);
+  color: rgb(7, 214, 87);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.title span {
+  display: inline-block;
+  animation: bounce linear 1;
+}
+
+.sns-link{
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sns-link i{
+	margin: 0px 10px 0px 10px;
+}
