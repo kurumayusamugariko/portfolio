@@ -1,5 +1,24 @@
 npm install react-unity-webgl
+npm install react-router-dom
 
 npx tsc トランスパイル
 npm run build
 npm run dev
+
+
+メインページ
+ちょっとサイバーっぽい？ネオン街みたいな見た目にしたい
+
+コンタクトページ（スマホ版）
+ツイッターのQRコードをスマホなどで表示
+
+スキルページ
+使える言語と、アプリ等を入れる
+
+ヒストリーページ
+作品などを入れる
+
+ギャラリー
+イラスト置き場？
+
+お知らせ

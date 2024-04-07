@@ -1,0 +1,27 @@
+.main{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.contents{
+	position: absolute;
+}
+
+.contents li{
+	list-style: none;
+	color: white;
+}
+
+.contents li:hover{
+	filter: drop-shadow(0 0 0.5em #ffffffaa);
+}
+
+a {
+  font-weight: 500;
+  color: #5680cf;
+  text-decoration: inherit;
+
+}
+a:hover {
+  color: #aecaff;
+}
