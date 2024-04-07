@@ -1,11 +1,22 @@
+
 .about {
-  background-color: rgba(255, 255, 255, 0.5);
+	margin: 0 auto;
+	font-family: "DotGothic16", sans-serif;
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 20px;
+	box-shadow:0 0 20px #71d2ff;
+}
+
+h4{
+	box-shadow: #e6f7fd 0px 0px 10px;
+}
+.follow{
+	margin-top: 10px;
 }
 .mogumo {
   width: 30%;
   border-radius: 50%;
-  box-shadow: 0em 1em 30px #71d2ffaa;
+  box-shadow: 0em 0em 30px #71d2ffaa;
 }
 
 a {
@@ -27,11 +38,11 @@ a {
 }
 .reol:hover {
   transform: scale(1.2);
-  color: rgb(51, 201, 238);
+  color: rgb(182, 137, 255);
 }
 .dustcell:hover {
   transform: scale(1.2);
-  color: rgb(7, 214, 87);
+  color: rgb(106, 255, 210);
 }
 
 @keyframes bounce {
@@ -52,13 +63,18 @@ a {
 }
 
 .sns-link{
-	width: 30%;
+	width: 150px;
 	margin: 0 auto;
 	margin-bottom: 50px;
-	padding: 20px;
+	padding: 1px 20px 20px 20px;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .sns-link i{
 	margin: 0px 10px 0px 10px;
+}
+
+.sns-link i:hover{
+	transform: scale(1.2);
+	color: rgb(222, 251, 255);
 }

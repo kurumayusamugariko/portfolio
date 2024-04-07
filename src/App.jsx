@@ -17,6 +17,7 @@ function App() {
   });
 
   return (
+		<div className="App">
     <Router>
       <Routes>
         <Route path="/" element={<Main />} />
@@ -34,6 +35,7 @@ function App() {
       </div> */}
       </Routes>
     </Router>
+		</div>
   );
 }
 

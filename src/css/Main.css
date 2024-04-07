@@ -18,13 +18,9 @@
 
 a {
   font-weight: 500;
-  color: #5680cf;
   text-decoration: inherit;
+}
 
-}
-a:hover {
-  color: #aecaff;
-}
 
 .toHome{
 	position: relative;
