@@ -1,5 +1,6 @@
 npm install react-unity-webgl
 npm install react-router-dom
+npm install use-sound
 
 npx tsc トランスパイル
 npm run build

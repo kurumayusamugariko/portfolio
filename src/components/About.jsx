@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import Modal from "react-modal";
 import { Link } from "react-router-dom";
 import "../css/About.css";
@@ -6,6 +6,11 @@ import "../css/About.css";
 function About() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [timerId, setTimerId] = useState(null);
+
+	useEffect(() => {
+    // アプリケーションのルート要素を指定
+    Modal.setAppElement('#root');
+  }, []);
 
   const handlePress = () => {
     const id = setTimeout(() => {
@@ -69,6 +74,7 @@ function About() {
       <div className="aboutContents">
         <img src="mogumo.png" className="mogumo" alt="icon" />
         <h3>もぐも / 久保田百香</h3>
+				<p>所属：サイバー大学　IT総合学部</p>
         <h4>Hobby</h4>
         <p>
           <span className="hobby">Game</span> /{" "}

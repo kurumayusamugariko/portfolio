@@ -4,7 +4,7 @@ import "../css/Main.css";
 function Main() {
   return (
     <div className="main">
-      <h1>Hello World</h1>
+      <h3>welcome to my portfolio</h3>
       <div className="contents">
         <ul>
           <li>
@@ -14,13 +14,13 @@ function Main() {
             <Link to="/skill">Skill</Link>
           </li>
           <li>
-            <Link to="/history">History</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/history">History & Work</Link>
           </li>
           <li>
             <Link to="/playground">Playground</Link>
+          </li>
+					<li>
+            <Link to="/art">Art Work</Link>
           </li>
         </ul>
       </div>
