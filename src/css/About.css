@@ -1,5 +1,6 @@
 
 .about {
+	position: relative;
 	margin: 0 auto;
 	font-family: "DotGothic16", sans-serif;
   background-color: rgba(255, 255, 255, 0.1);
@@ -77,4 +78,10 @@ a {
 .sns-link i:hover{
 	transform: scale(1.2);
 	color: rgb(222, 251, 255);
+}
+
+.dotcat{
+	position: fixed;
+	bottom: 0px;
+	width: 60px;
 }

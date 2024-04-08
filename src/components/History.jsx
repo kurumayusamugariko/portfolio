@@ -3,7 +3,7 @@ import "../css/History.css";
 
 function History() {
   return (
-    <div className="History">
+    <div className="about">
 			<h3>History</h3>
 			<p>2023/05 waffle college 2期生　エントリーコース</p>
 			<p>2023/08~2024/03 waffle college 2期生　テックキャリアコース</p>
