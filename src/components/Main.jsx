@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import "../css/Main.css";
+import About from "./About";
 
 function Main() {
   return (
     <div className="main">
       <h3>welcome to my portfolio</h3>
+			
       <div className="contents">
         <ul>
           <li>

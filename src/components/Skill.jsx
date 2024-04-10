@@ -11,6 +11,7 @@ const skills = [
   { title: 'Java', description: 'Javaの説明' },
   { title: 'SQL', description: 'SQLの説明' },
   { title: 'Docker', description: 'Dockerの説明' },
+	{ title: 'Firebase', description: 'firebaseの説明' },
 	{ title: 'ibisPaint X', description: 'ibisPaint Xの説明' },
 ];
 
@@ -23,7 +24,9 @@ function Skill() {
 	
   return (
     <div className="about">
-      <h3>Skill</h3>
+			<div className="title">
+      	<h3>- Skill -</h3>
+			</div>
       {skills.map((skill, index) => (
         <div key={index}>
           <h4 className="title" onClick={() => handleClick(skill)}>{skill.title}</h4>
