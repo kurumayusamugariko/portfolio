@@ -53,7 +53,7 @@ function About() {
           </div>
         </Modal>
 
-      <div className="title">
+      <div className="abouttitle">
         <h3>
           -
           {Array.from("About me").map((char, i) => (

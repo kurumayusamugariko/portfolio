@@ -1,6 +1,14 @@
 .title{
+	position: relative;
 	margin-bottom: 5px;
 	padding: 5px;
+}
+.star{
+	position: absolute;
+	top: 13%;
+	right: 2%;
+	color: #f3f579;
+	opacity: 0.8;
 }
 .title:hover{
 	transform: scale(1.05);

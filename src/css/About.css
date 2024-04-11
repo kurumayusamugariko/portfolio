@@ -59,7 +59,7 @@ a {
   }
 }
 
-.title span {
+.abouttitle span {
   display: inline-block;
   animation: bounce linear 1;
 }
