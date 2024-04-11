@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 import "../css/Main.css";
-import About from "./About";
 
 function Main() {
   return (
     <div className="main">
-      <h3>welcome to my portfolio</h3>
+      <h3>Welcome to my portfolio</h3>
 			
       <div className="contents">
         <ul>
@@ -26,6 +25,8 @@ function Main() {
           </li>
         </ul>
       </div>
+			<div className="background"></div>
+			<div className="dotcat"><img src="dotcat.gif" /></div>
     </div>
   );
 }

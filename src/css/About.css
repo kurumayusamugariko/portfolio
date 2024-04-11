@@ -87,9 +87,10 @@ a {
 	width: 60px;
 }
 
-@media(max-width: 768px){
+@media(max-width: 450px){
 	 .about {
 		margin: 20px;
+		max-width: 100%;
 	 }
 	
 }
