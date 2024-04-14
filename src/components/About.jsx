@@ -117,9 +117,9 @@ function About() {
           >
             <i className="fa-brands fa-x-twitter fa-xl"></i>
           </a>
-          <a href="">
+          {/* <a href="">
             <i className="fa-brands fa-pixiv fa-xl"></i>
-          </a>
+          </a> */}
           <a href="https://twitter.com/mogumo_zzz">
             <i className="fa-brands fa-github fa-xl"></i>
           </a>

@@ -15,7 +15,7 @@ function Playground() {
 			<div className="unity">
         <Unity
           unityProvider={unityProvider}
-          style={{ width: 600, height: 400 }}
+          style={{ width: 600, height: 400}}
         />
       </div>
 			<Link to="/">

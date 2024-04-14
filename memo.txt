@@ -2,6 +2,9 @@ npm install react-unity-webgl
 npm install react-router-dom
 npm install use-sound
 
+npm install parallax-js
+https://github.com/wagerfield/parallax?tab=readme-ov-file#11-installation
+
 npx tsc トランスパイル
 npm run build
 npm run dev

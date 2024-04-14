@@ -13,6 +13,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	scrollbar-width: none;
+	cursor: url("portfolio.png"), auto;
 }
 
 #root {
@@ -27,6 +29,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
 	background-color: #070013;
+}
+
+.unity{
+	z-index: 99;
+	visibility: visible;
 }
 
 /* @media (prefers-color-scheme: light) {

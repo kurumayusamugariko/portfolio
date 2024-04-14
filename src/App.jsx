@@ -14,21 +14,18 @@ import Art from "./components/Art";
 function App() {
 
   return (
-		<div className="App">
-    <Router>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skill" element={<Skill />} />
-				<Route path="/history" element={<History />} />
-				<Route path="/playground" element={<Playground />} />
-				<Route path="/art" element={<Art />} />
-        /{/* <T /> */}
-
-        
-      </Routes>
-    </Router>
-		</div>
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skill" element={<Skill />} />
+          <Route path="/history" element={<History />} />
+          <Route path="/playground" element={<Playground />} />
+          <Route path="/art" element={<Art />} />/{/* <T /> */}
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

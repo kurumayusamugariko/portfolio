@@ -12,11 +12,15 @@ function Art() {
       <h3>Art Work</h3>
       <div style={{ marginBottom: 20 }}>
         <p>My art work</p>
-        <p>Comming soon...</p>
-        <p>もんもん　めたもん　ドコドコmix</p>
-        <button id="audioBtn" onClick={() => play()}>音を鳴らす</button>
-        <button id="audioBtn" onClick={() => stop()}>停止</button>
-        <button id="audioBtn" onClick={() => pause()}>ポーズ</button>
+        <div className="artwork">
+					<img src="sleep.png" width="150px" />
+          <p>もんもん めたもん -ドコドコmix-</p>
+          <img src="play.png" id="audioBtn" onClick={() => play()} />
+          <img src="stop.png" id="audioBtn" onClick={() => stop()} />
+          <img src="reset.png" id="audioBtn" onClick={() => pause()} />
+        </div>
+				<p>Comming soon...</p>
+				<p></p>
       </div>
       <Link to="/">
         <img src="portfolio.png" width="50px" className="toHome" />
