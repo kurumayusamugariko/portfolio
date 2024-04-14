@@ -25,7 +25,7 @@ function Main() {
           </li>
         </ul>
       </div>
-      <div className="background"></div>
+      <div className="background" style={{backgroundImage: "url(girl.png)"}}></div>
       <div className="dotcat">
         <img
           src="dotcat.gif"
