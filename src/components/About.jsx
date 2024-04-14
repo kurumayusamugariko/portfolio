@@ -129,7 +129,7 @@ function About() {
         <img src="portfolio.png" width="50px" className="toHome" />
       </Link>
 			<img className="dotcat" src="dotcat.gif"></img>
-			<div className="background"></div>
+
     </div>
 		</div>
   );
