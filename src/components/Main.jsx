@@ -103,13 +103,13 @@ function Main() {
         </ul>
       </div>
 
-      <div className="backgroundtext">
+      {/* <div className="backgroundtext">
         <h1>HYPE</h1>
         <h1>MODE</h1>
-      </div>
+      </div> */}
       <div
         className="background"
-        style={{ backgroundImage: "url(eye.gif)", backgroundSize: "cover" }}
+        style={{ backgroundImage: "url(portfolio3.png)", backgroundSize: "cover"}}
       ></div>
       <div className="dotcat">
         <img

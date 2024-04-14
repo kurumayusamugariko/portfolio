@@ -14,7 +14,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 	scrollbar-width: none;
-	cursor: url("portfolio.png"), auto;
 }
 
 #root {
