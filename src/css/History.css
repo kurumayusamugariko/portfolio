@@ -1,7 +1,137 @@
+.root{
+	width: 100%;
+}
+
+.historyContents{
+	font-family: "DotGothic16", sans-serif;
+	background-color: rgba(255, 255, 255, 0.3);
+	box-shadow: 0 0 20px #71d2ff;
+	margin: 20px;
+	padding-top: 20px;
+}
+
+.history{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project{
+	width: 30%;
+	background-color: rgb(143, 143, 143,0.3);
+	margin: 10px;
+	padding: 10px;
+	position:relative;
+  display: inline-block;
+  color: white;
+  overflow: hidden; 
+  transition: .15s;
+}
+
 #deploy img{
-	max-width: 300px;
+	max-width: 90%;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
 #deploy img:hover{
 	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.project:hover{
+  /* color: #888; */
+  /* background: white; */
+  box-shadow: 0 0 10px rgb(80, 86, 87), 0 0 40px white, 0 0 80px white;
+  transition-delay: .9s;
+  animation : infinite;
+} 
+
+.project div{
+  position: absolute;
+  display:block;
+}
+
+.project div:nth-child(1){
+  top:0;
+  left: -100%;
+  width:100%;;
+  height:2px;
+  background: linear-gradient(90deg,transparent, rgb(28, 164, 182));
+
+}
+
+.project:hover div:nth-child(1){
+  left:100%;
+  transition:.75s;
+}
+
+.project div:nth-child(3){
+  bottom:0;
+  right: -100%;
+  width:100%;;
+  height:2px;
+  background: linear-gradient(270deg,transparent, rgb(238, 247, 124));
+}
+
+.project:hover div:nth-child(3){
+  right:100%;
+  transition:.5s;
+  transition-delay:.6s;
+}
+
+.project div:nth-child(2){
+  top:-100%;
+  right:0;
+  height:100%;;
+  width:2px;
+  background: linear-gradient(180deg,transparent, rgb(255, 95, 188));
+}
+
+.project:hover div:nth-child(2){
+  top:100%;
+  transition: 1s;
+  transition-delay: .25s;
+
+}
+
+.project div:nth-child(4){
+  bottom:-100%;
+  left:0;
+  height:100%;;
+  width:2px;
+  background: linear-gradient(45deg,transparent,rgb(255, 124, 37));
+}
+
+.project:hover div:nth-child(4){
+  bottom:100%;
+  transition: .5s;
+  transition-delay: .75s;
+
+}
+
+.nomatem{
+	margin: 40px;
+}
+
+
+.nomatem img:hover{
+	transform: scale(1.7);
+}
+
+@media(max-width: 1200px){
+	.project{
+		width: 44%;
+	}
+	
+}
+
+@media(max-width: 450px){
+	.historyContents{
+		padding-bottom: 25px;
+	}
+	.project{
+		width: 90%;
+	}
+	.nomatem{
+		margin: 10px;
+	}
+
 }

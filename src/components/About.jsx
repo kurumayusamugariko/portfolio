@@ -2,6 +2,7 @@ import React, { useState, useEffect} from "react";
 import Modal from "react-modal";
 import { Link } from "react-router-dom";
 import "../css/About.css";
+import ParticleComponent from "./ParticleComponents";
 
 function About() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -131,6 +132,7 @@ function About() {
 			<img className="dotcat" src="dotcat.gif"></img>
 
     </div>
+		<ParticleComponent />
 		</div>
   );
 }

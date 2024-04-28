@@ -3,6 +3,7 @@ import useSound from "use-sound";
 import Soundurl from "../../public/metametamonmon.m4a";
 import { Link } from "react-router-dom";
 import "../css/Art.css";
+import ParticleComponent from "./ParticleComponents";
 
 function Art() {
   const [play, { stop, pause }] = useSound(Soundurl);
@@ -25,6 +26,7 @@ function Art() {
       <Link to="/">
         <img src="portfolio.png" width="50px" className="toHome" />
       </Link>
+			<ParticleComponent />
     </div>
   );
 }

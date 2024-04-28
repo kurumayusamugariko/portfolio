@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Unity, useUnityContext } from "react-unity-webgl";
+import ParticleComponent from "./ParticleComponents";
 
 function Playground() {
 	const { unityProvider } = useUnityContext({
@@ -21,6 +22,7 @@ function Playground() {
 			<Link to="/">
         <img src="portfolio.png" width="50px" className="toHome" />
       </Link>
+			<ParticleComponent />
 		</div>
 	);
 }

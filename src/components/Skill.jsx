@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import "../css/Skill.css";
+import ParticleComponent from "./ParticleComponents";
 
 const skills = [
   {
@@ -35,6 +36,11 @@ const skills = [
     description: "学校の授業で使用<br />すごろくゲームを作った",
     star: 1,
   },
+	{
+    title: "Swift",
+    description: "ハッカソン用に使用<br />iOSアプリを制作",
+    star: 1,
+  },
   {
     title: "SQL",
     description: "授業やハッカソンでWebサイトやWebアプリの制作に使用",
@@ -67,7 +73,7 @@ function Skill() {
   };
 
   return (
-    <div className="about">
+    <div className="skillPage">
       <h3>- Skill -</h3>
       <div className="skill">
         {skills.map((skill, index) => (
@@ -93,6 +99,7 @@ function Skill() {
       <Link to="/" className="toHome">
         <img src="portfolio.png" width="10%" />
       </Link>
+			<ParticleComponent />
     </div>
   );
 }
