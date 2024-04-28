@@ -28,10 +28,10 @@ function Main() {
         </ul>
       </div>
 
-      {/* <div className="backgroundtext">
-        <h1>HYPE</h1>
-        <h1>MODE</h1>
-      </div> */}
+			<div className="matrix">
+				
+			</div>
+
       <div
         className="background"
         style={{ backgroundImage: "url(portfolio3.png)", backgroundSize: "cover"}}
