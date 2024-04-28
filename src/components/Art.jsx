@@ -12,15 +12,16 @@ function Art() {
     <div className="art">
       <h3>Art Work</h3>
       <div style={{ marginBottom: 20 }}>
-        <p>My art work</p>
         <div className="artwork">
 					<img src="sleep.png" width="150px" />
           <p>もんもん めたもん -ドコドコmix-</p>
           <img src="play.png" id="audioBtn" onClick={() => play()} />
-          <img src="stop.png" id="audioBtn" onClick={() => stop()} />
-          <img src="reset.png" id="audioBtn" onClick={() => pause()} />
+          <img src="stop.png" id="audioBtn" onClick={() => pause()} />
+          <img src="reset.png" id="audioBtn" onClick={() => stop()} />
+					<p></p>
+					<a href="../../public/metametamonmon.m4a" download>Download</a>
         </div>
-				<p>Comming soon...</p>
+				
 				<p></p>
       </div>
       <Link to="/">
