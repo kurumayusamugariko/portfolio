@@ -70,33 +70,6 @@ a {
 	}
 }
 
-h1 {
-  font-weight: bold;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 30vh;
-  letter-spacing: 1vw;
-  position: absolute;
-  top: 15vh;
-  text-align: center;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  background: url("scroll.jpg");
-  background-size: auto 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 13s linear infinite;
-}
-
-h1:nth-child(2) {
-  top: 50vh;
-}
-
-.backgroundtext{
-	opacity: 0.5;
-}
-
 @keyframes shine {
   from {
     background-position: center 0;
