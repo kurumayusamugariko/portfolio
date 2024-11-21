@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import { useState } from "react";
 import "../css/Skill.css";
 import ParticleComponent from "./ParticleComponents";
 
@@ -13,7 +13,7 @@ const skills = [
   {
     title: "JavaScript",
     description:
-      "一番よく使用するプログラミング言語<br />最近ではハッカソンでReactやVue.jsでもWebアプリを制作",
+      "ハッカソンでWebアプリを制作<br />ReactやVue.jsも勉強中",
     star: 2,
   },
   {
@@ -36,20 +36,19 @@ const skills = [
     description: "学校の授業で使用<br />すごろくゲームを作った",
     star: 1,
   },
-	{
+  {
     title: "Swift",
     description: "ハッカソン用に使用<br />iOSアプリを制作",
     star: 1,
   },
   {
     title: "SQL",
-    description: "授業やハッカソンでWebサイトやWebアプリの制作に使用",
+    description: "Webアプリの制作に使用",
     star: 2,
   },
   {
     title: "Docker",
-    description:
-      "Google Cloud Platform関連で使用。<br />デプロイはできたけどまだ理解が浅いので勉強中。",
+    description: "チーム開発で使用",
     star: 1,
   },
   {
@@ -78,14 +77,18 @@ function Skill() {
       <div className="skill">
         {skills.map((skill, index) => (
           <div key={index}>
-            <h4 className="title" onClick={() => handleClick(skill)}>
+            <h4
+              className="title"
+              onClick={() => handleClick(skill)}
+            >
               {skill.title}
-							<div className="star">
-              {Array(skill.star)
-                .fill().map((_, i) => (
-                  <img key={i} src="star.png" width="20px" alt="star" />
-                ))}
-								</div>
+              <div className="star">
+                {Array(skill.star)
+                  .fill()
+                  .map((_, i) => (
+                    <img key={i} src="star.png" width="20px" alt="star" />
+                  ))}
+              </div>
             </h4>
             {selectedSkill === skill && (
               <div
@@ -99,7 +102,7 @@ function Skill() {
       <Link to="/" className="toHome">
         <img src="portfolio.png" width="10%" />
       </Link>
-			<ParticleComponent />
+      <ParticleComponent />
     </div>
   );
 }
