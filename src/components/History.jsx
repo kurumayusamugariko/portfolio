@@ -13,7 +13,7 @@ function History() {
           <div></div>
           <div></div>
           <p>\New/ 2024/04/28 🏆</p>
-          <p>Track job ハッカソン　チーム：深夜部</p>
+          <p>Track job ハッカソン  チーム：深夜部</p>
           <h3>ヘルスメモ</h3>
           <a
             href="https://www.canva.com/design/DAGDD-8FXow/NonNbHR5sY0wPzF7U_upYw/view?utm_content=DAGDD-8FXow&utm_campaign=designshare&utm_medium=link&utm_source=editor"
@@ -28,7 +28,7 @@ function History() {
           <div></div>
           <div></div>
           <p>2024/02~03</p>
-          <p>Dots to Code　チーム：おもしれー女...</p>
+          <p>Dots to Code  チーム：おもしれー女...</p>
           <h3>Survey Collector</h3>
           <a href="https://omosire.web.app" id="deploy">
             <img src="survey.png"></img>
@@ -54,7 +54,7 @@ function History() {
           <div></div>
           <div></div>
           <p>2023/08~2024/03</p>
-          <p>waffle college 2期生　テックキャリアコース</p>
+          <p>waffle college 2期生  テックキャリアコース</p>
           <h3>超★純愛ノート</h3>
           <a href="https://www.canva.com/design/DAF75xYOO5c/5j525OnnSVbstkuMnjb7xA/view?utm_content=DAF75xYOO5c&utm_campaign=designshare&utm_medium=link&utm_source=editor" id="deploy">
             <img src="junaidayo.png"></img>
@@ -67,7 +67,7 @@ function History() {
           <div></div>
           <div></div>
           <p>2023/11~2024/01</p>
-          <p>カラビナインターン　チーム:ワンルームDJ</p>
+          <p>カラビナインターン  チーム:ワンルームDJ</p>
           <h3>Recentri</h3>
           <a id="deploy">
             <img src="recentri.gif"></img>
@@ -90,7 +90,7 @@ function History() {
           <div></div>
           <div></div>
           <p>2023/10~11</p>
-          <p>TECK-BASE IoTコース　Aチーム:もつ鍋</p>
+          <p>TECK-BASE IoTコース  Aチーム:もつ鍋</p>
           <h3>猫用トイレセンサー</h3>
           <a id="deploy"><img src="nekoyou.jpg"></img></a>
         </div>
@@ -110,7 +110,7 @@ function History() {
           <div></div>
           <div></div>
           <p>2023/05</p>
-          <p>waffle college 2期生　エントリーコース</p>
+          <p>waffle college 2期生  エントリーコース</p>
 					<h3>ほめたす</h3>
 					<a href="https://x.thunkable.com/copy/d29c4d8b3df65833e760b20df381fcc6" id="deploy">
             <img src="hometas.jpg"></img>

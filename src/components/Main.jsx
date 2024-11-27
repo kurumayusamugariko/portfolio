@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import ParticleComponent from "./ParticleComponents.jsx";
+// import Swal from 'sweetalert2';
 import "../css/Main.css";
 
 function Main() {
-
   return (
     <div className="main">
       <h3>Welcome to my portfolio</h3>
@@ -28,13 +28,14 @@ function Main() {
         </ul>
       </div>
 
-			<div className="matrix">
-				
-			</div>
+      <div className="matrix"></div>
 
       <div
         className="background"
-        style={{ backgroundImage: "url(portfolio3.png)", backgroundSize: "cover"}}
+        style={{
+          backgroundImage: "url(portfolio3.png)",
+          backgroundSize: "cover",
+        }}
       ></div>
       <div className="dotcat">
         <img
@@ -50,7 +51,7 @@ function Main() {
               });
             } else if (i === 1) {
               Swal.fire({
-                text: "推しが武道館行くらしい。",
+                text: "推しが武道館行きました。最高。",
                 icon: "",
                 imageUrl: "dotcat.gif",
               });

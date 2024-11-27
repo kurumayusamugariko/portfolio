@@ -1,12 +1,9 @@
-import React, { useRef, useState } from "react";
-import useSound from "use-sound";
-import Soundurl from "../../public/metametamonmon.m4a";
 import { Link } from "react-router-dom";
 import "../css/Art.css";
 import ParticleComponent from "./ParticleComponents";
 
 function Art() {
-  const [play, { stop, pause }] = useSound(Soundurl);
+  const audio = new Audio('/metametamonmon.m4a');
 
   return (
     <div className="art">
@@ -15,9 +12,12 @@ function Art() {
         <div className="artwork">
 					<img src="sleep.png" width="150px" />
           <p>もんもん めたもん -ドコドコmix-</p>
-          <img src="play.png" id="audioBtn" onClick={() => play()} />
-          <img src="stop.png" id="audioBtn" onClick={() => pause()} />
-          <img src="reset.png" id="audioBtn" onClick={() => stop()} />
+          <img src="play.png" id="audioBtn" onClick={() => audio.play()} />
+          <img src="stop.png" id="audioBtn" onClick={() => audio.pause()} />
+          <img src="reset.png" id="audioBtn" onClick={() => {
+            audio.pause();
+            audio.currentTime=0;
+            }} />
 					<p></p>
 					<a href="../../public/metametamonmon.m4a" download>Download</a>
         </div>
