@@ -12,7 +12,31 @@ function History() {
           <div></div>
           <div></div>
           <div></div>
-          <p>\New/ 2024/04/28 🏆</p>
+          <p>2024/07/20</p>
+          <p>Progate ハッカソン  チーム：pineapple</p>
+          <h3>にほんばしタワーバトル</h3>
+          <a href="https://unityroom.com/games/nihonnbashi_ph" id="deploy">
+            <img src="nihonbashi.gif"></img>
+          </a>
+        </div>
+
+        <div className="project">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <p>2024/06/22</p>
+          <p>Progate ハッカソン  チーム：SYACHI</p>
+          <h3>こまにゅー</h3>
+          <a id="deploy"><img src="komanew.jpg"></img></a>
+        </div>
+        
+        <div className="project">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <p>2024/04/28 🏆優秀賞</p>
           <p>Track job ハッカソン  チーム：深夜部</p>
           <h3>ヘルスメモ</h3>
           <a
