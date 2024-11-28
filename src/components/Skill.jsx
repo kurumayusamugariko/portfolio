@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "../css/Skill.css";
-import ParticleComponent from "./ParticleComponents";
+// import ParticleComponent from "./ParticleComponents";
 
 const skills = [
   {
@@ -102,7 +102,7 @@ function Skill() {
       <Link to="/" className="toHome">
         <img src="portfolio.png" width="10%" />
       </Link>
-      <ParticleComponent />
+      {/* <ParticleComponent /> */}
     </div>
   );
 }

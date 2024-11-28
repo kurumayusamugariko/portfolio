@@ -1,12 +1,38 @@
 import { Link } from "react-router-dom";
 import "../css/History.css";
-import ParticleComponent from "./ParticleComponents";
+// import ParticleComponent from "./ParticleComponents";
 
 function History() {
   return (
     <div className="historyContents">
       <h3>- History -</h3>
       <div className="history">
+        <div className="project">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <p>2024/10/27 🥉努力賞</p>
+          <p>技育Campハッカソンvol.16</p>
+          <h3>TOETORE</h3>
+          <a href="https://youtu.be/B_oUF3C-GRM" id="deploy">
+            <img src="toetore.gif"></img>
+          </a>
+        </div>
+
+        <div className="project">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <p>2024/07/23</p>
+          <p>エンジニアカフェイベント</p>
+          <h3>Fridge_AI</h3>
+          <a href="https://youtu.be/cZEtedQ9El0" id="deploy">
+            <img src="Fridge_AI.gif"></img>
+          </a>
+        </div>
+        
         <div className="project">
           <div></div>
           <div></div>
@@ -103,7 +129,7 @@ function History() {
           <div></div>
           <div></div>
           <div></div>
-          <p>2023/10 技育ハッカソン vol.10</p>
+          <p>2023/10 技育Campハッカソン vol.10</p>
           <p>チーム：ぽじもんトレーナー</p>
           <h3>ぽじもん</h3>
           <a id="deploy"><img src="posimon.jpg"></img></a>
@@ -153,7 +179,7 @@ function History() {
       <Link to="/">
         <img src="portfolio.png" width="50px" className="toHome" />
       </Link>
-			<ParticleComponent />
+			{/* <ParticleComponent /> */}
     </div>
   );
 }
