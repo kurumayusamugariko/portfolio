@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import { useState, useEffect} from "react";
 import Modal from "react-modal";
 import { Link } from "react-router-dom";
 import "../css/About.css";
@@ -75,7 +75,7 @@ function About() {
       <div className="aboutContents">
         <img src="mogumo.png" className="mogumo" alt="icon" />
         <h3>もぐも / 久保田百香</h3>
-				<p>所属：サイバー大学　IT総合学部</p>
+				<p>所属：サイバー大学  IT総合学部</p>
         <h4>Hobby</h4>
         <p>
           <span className="hobby">Game</span> /{" "}
@@ -121,7 +121,7 @@ function About() {
           {/* <a href="">
             <i className="fa-brands fa-pixiv fa-xl"></i>
           </a> */}
-          <a href="https://twitter.com/mogumo_zzz">
+          <a href="https://github.com/kurumayusamugariko">
             <i className="fa-brands fa-github fa-xl"></i>
           </a>
         </div>
